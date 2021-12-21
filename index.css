@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img{
+  max-width: 100%;
+}
+
+.gallery{
+  background-color: #343a40;
+  padding: 80px 0;
+}
+
+.gallery img{
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0,0.3);
+  cursor:pointer;
+  transition: 0.2s ease;
+  border-radius: 1px;
+}
+.gallery img:hover{
+  transform: scale(1.04);
+}
+
+#gallery-modal .modal-img{
+  width: 100%;
+}
